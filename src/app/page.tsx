@@ -46,6 +46,10 @@ export default async function Home() {
           </div>
 
           <LatestPost />
+
+          <Link href = "/about">
+          Go to about Page
+          </Link>
         </div>
       </main>
     </HydrateClient>
